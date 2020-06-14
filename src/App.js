@@ -34,7 +34,7 @@ class App extends Component {
             );
           }}
         />
-        <CardList monsters={this.state.monsters} />
+        <CardList monsters={filteredMonsters} />
       </div>
     );
   }
